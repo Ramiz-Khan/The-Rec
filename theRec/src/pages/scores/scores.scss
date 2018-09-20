@@ -1,0 +1,44 @@
+page-scores {
+
+
+    .content-md, .content-ios {
+ 
+        background-color: color($colors,dark);
+        color: #ffffff;
+    
+     }
+
+     .card-heading {
+         width: 100%;
+     }
+
+     .practice{
+         border-top: #454545 10px solid;;
+     }
+
+     .games {
+         border-top: #16c5b5 10px solid;;
+     }
+
+     .news {
+        border-top: rgb(88, 88, 190) 10px solid;;
+     }
+
+    .card-md, .card-ios {
+        height: calc(100% - 60%);
+        text-align: center;
+        vertical-align: center;
+        color: #000000;
+        font-family: Helvetica, sans-serif;
+
+    }
+
+
+    .card-subtitle-score {
+        font-size: 4rem;
+        font-family: Helvetica, sans-serif;
+        font-weight: 400;
+
+    }
+
+}
